@@ -1,0 +1,10 @@
+C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\bin\Debug\Flimes_Marvel.exe.config
+C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\bin\Debug\Flimes_Marvel.exe
+C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\bin\Debug\Flimes_Marvel.pdb
+C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\obj\Debug\Flimes_Marvel.csproj.AssemblyReference.cache
+C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\obj\Debug\Flimes_Marvel.Form1.resources
+C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\obj\Debug\Flimes_Marvel.Properties.Resources.resources
+C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\obj\Debug\Flimes_Marvel.csproj.GenerateResource.cache
+C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\obj\Debug\Flimes_Marvel.csproj.CoreCompileInputs.cache
+C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\obj\Debug\Flimes_Marvel.exe
+C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\obj\Debug\Flimes_Marvel.pdb
