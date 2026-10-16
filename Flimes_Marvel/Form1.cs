@@ -60,7 +60,10 @@ namespace Flimes_Marvel
 
         private void Pic_Flimes1_Click(object sender, EventArgs e)
         {
+            //Mostra a nota do Filme
             Txt_Nota.Text = "A nota é 8,4 com 380 mil votos";
+            //Mostra o Trailer do filme
+            axWindowsMediaPlayer1.URL = @"Video/Aranhaverso2.mp4";
         }
 
         private void Btn_Resultado_Click(object sender, EventArgs e)
@@ -79,22 +82,35 @@ namespace Flimes_Marvel
 
         private void Pic_Flimes2_Click(object sender, EventArgs e)
         {
+            //Mostra a nota do Filme
             Txt_Nota.Text = "A nota é 8,2 com 880 mil votos";
+            //Mostra o Trailer do filme
+            axWindowsMediaPlayer1.URL = @"Video/Sem_Volta.mp4";
         }
 
         private void Pic_Flimes3_Click(object sender, EventArgs e)
         {
+            //Mostra a nota do Filme
             Txt_Nota.Text = "A nota é 8,4 com 1,3 milões de votos";
+            //Mostra o Trailer do filme
+            axWindowsMediaPlayer1.URL = @"Video/Ultimato.mp4";
         }
 
         private void Pic_Flimes4_Click(object sender, EventArgs e)
         {
+            //Mostra a nota do Filme
             Txt_Nota.Text = "A nota é 8,4 com 1,2 milhões de votos";
+            //Mostra o Trailer do filme
+            axWindowsMediaPlayer1.URL = @"Video/Guerra_Infinita.mp4";
         }
 
         private void Pic_Flimes5_Click(object sender, EventArgs e)
         {
+            //Mostra a nota do Filme
             Txt_Nota.Text = "A nota é 8,4 com 670 mil votos";
+            //Mostra o Trailer do filme
+            axWindowsMediaPlayer1.URL = @"Video/Aranhaverso1.mp4";
+
         }
     }
 }

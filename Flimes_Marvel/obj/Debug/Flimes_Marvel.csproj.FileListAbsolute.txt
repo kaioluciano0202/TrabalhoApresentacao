@@ -8,3 +8,8 @@ C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\obj\Debug\Flimes_Marvel.c
 C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\obj\Debug\Flimes_Marvel.csproj.CoreCompileInputs.cache
 C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\obj\Debug\Flimes_Marvel.exe
 C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\obj\Debug\Flimes_Marvel.pdb
+C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\bin\Debug\Interop.WMPLib.dll
+C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\obj\Debug\Interop.WMPLib.dll
+C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\DB\Desktop\TrabalhoApresentacao\Flimes_Marvel\obj\Debug\Flimes_Marvel.csproj.ResolveComReference.cache

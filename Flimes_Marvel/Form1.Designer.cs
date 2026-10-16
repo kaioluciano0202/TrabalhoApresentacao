@@ -29,6 +29,7 @@ namespace Flimes_Marvel
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Lbl_Filmes = new System.Windows.Forms.Label();
             this.Pic_Flimes1 = new System.Windows.Forms.PictureBox();
             this.Pic_Flimes2 = new System.Windows.Forms.PictureBox();
@@ -48,11 +49,13 @@ namespace Flimes_Marvel
             this.Lbl_Nota = new System.Windows.Forms.Label();
             this.Txt_Nota = new System.Windows.Forms.TextBox();
             this.Btn_Resultado = new System.Windows.Forms.Button();
+            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Flimes1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Flimes2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Flimes3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Flimes4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Flimes5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
             // Lbl_Filmes
@@ -70,7 +73,7 @@ namespace Flimes_Marvel
             // Pic_Flimes1
             // 
             this.Pic_Flimes1.Image = global::Flimes_Marvel.Properties.Resources.SN_HomemAranha_1400x2100__1_;
-            this.Pic_Flimes1.Location = new System.Drawing.Point(23, 129);
+            this.Pic_Flimes1.Location = new System.Drawing.Point(19, 77);
             this.Pic_Flimes1.Name = "Pic_Flimes1";
             this.Pic_Flimes1.Size = new System.Drawing.Size(100, 141);
             this.Pic_Flimes1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -81,7 +84,7 @@ namespace Flimes_Marvel
             // Pic_Flimes2
             // 
             this.Pic_Flimes2.Image = global::Flimes_Marvel.Properties.Resources.spider_man_no_way_home_background_2e7zbabc6gl58men;
-            this.Pic_Flimes2.Location = new System.Drawing.Point(186, 129);
+            this.Pic_Flimes2.Location = new System.Drawing.Point(182, 77);
             this.Pic_Flimes2.Name = "Pic_Flimes2";
             this.Pic_Flimes2.Size = new System.Drawing.Size(100, 141);
             this.Pic_Flimes2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -92,7 +95,7 @@ namespace Flimes_Marvel
             // Pic_Flimes3
             // 
             this.Pic_Flimes3.Image = global::Flimes_Marvel.Properties.Resources.avengers_endgame_poster_w__quantum_suits_by_maxuelzombie_dd2aksh_pre;
-            this.Pic_Flimes3.Location = new System.Drawing.Point(350, 129);
+            this.Pic_Flimes3.Location = new System.Drawing.Point(346, 77);
             this.Pic_Flimes3.Name = "Pic_Flimes3";
             this.Pic_Flimes3.Size = new System.Drawing.Size(100, 140);
             this.Pic_Flimes3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -103,7 +106,7 @@ namespace Flimes_Marvel
             // Pic_Flimes4
             // 
             this.Pic_Flimes4.Image = global::Flimes_Marvel.Properties.Resources._8_vingadores_guerra_infinita_1;
-            this.Pic_Flimes4.Location = new System.Drawing.Point(523, 129);
+            this.Pic_Flimes4.Location = new System.Drawing.Point(519, 77);
             this.Pic_Flimes4.Name = "Pic_Flimes4";
             this.Pic_Flimes4.Size = new System.Drawing.Size(100, 140);
             this.Pic_Flimes4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -114,7 +117,7 @@ namespace Flimes_Marvel
             // Pic_Flimes5
             // 
             this.Pic_Flimes5.Image = global::Flimes_Marvel.Properties.Resources.unnamed;
-            this.Pic_Flimes5.Location = new System.Drawing.Point(678, 129);
+            this.Pic_Flimes5.Location = new System.Drawing.Point(674, 77);
             this.Pic_Flimes5.Name = "Pic_Flimes5";
             this.Pic_Flimes5.Size = new System.Drawing.Size(100, 141);
             this.Pic_Flimes5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -127,7 +130,7 @@ namespace Flimes_Marvel
             this.Btn_Escolha1.BackColor = System.Drawing.Color.Black;
             this.Btn_Escolha1.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Escolha1.ForeColor = System.Drawing.Color.White;
-            this.Btn_Escolha1.Location = new System.Drawing.Point(23, 276);
+            this.Btn_Escolha1.Location = new System.Drawing.Point(19, 224);
             this.Btn_Escolha1.Name = "Btn_Escolha1";
             this.Btn_Escolha1.Size = new System.Drawing.Size(75, 27);
             this.Btn_Escolha1.TabIndex = 6;
@@ -140,7 +143,7 @@ namespace Flimes_Marvel
             this.Btn_Escolha2.BackColor = System.Drawing.Color.Black;
             this.Btn_Escolha2.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Escolha2.ForeColor = System.Drawing.Color.White;
-            this.Btn_Escolha2.Location = new System.Drawing.Point(186, 276);
+            this.Btn_Escolha2.Location = new System.Drawing.Point(182, 224);
             this.Btn_Escolha2.Name = "Btn_Escolha2";
             this.Btn_Escolha2.Size = new System.Drawing.Size(75, 27);
             this.Btn_Escolha2.TabIndex = 7;
@@ -153,7 +156,7 @@ namespace Flimes_Marvel
             this.Btn_Escolha3.BackColor = System.Drawing.Color.Black;
             this.Btn_Escolha3.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Escolha3.ForeColor = System.Drawing.Color.White;
-            this.Btn_Escolha3.Location = new System.Drawing.Point(350, 275);
+            this.Btn_Escolha3.Location = new System.Drawing.Point(346, 223);
             this.Btn_Escolha3.Name = "Btn_Escolha3";
             this.Btn_Escolha3.Size = new System.Drawing.Size(75, 27);
             this.Btn_Escolha3.TabIndex = 8;
@@ -166,7 +169,7 @@ namespace Flimes_Marvel
             this.Btn_Escolha4.BackColor = System.Drawing.Color.Black;
             this.Btn_Escolha4.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Escolha4.ForeColor = System.Drawing.Color.White;
-            this.Btn_Escolha4.Location = new System.Drawing.Point(523, 275);
+            this.Btn_Escolha4.Location = new System.Drawing.Point(519, 223);
             this.Btn_Escolha4.Name = "Btn_Escolha4";
             this.Btn_Escolha4.Size = new System.Drawing.Size(75, 27);
             this.Btn_Escolha4.TabIndex = 9;
@@ -179,7 +182,7 @@ namespace Flimes_Marvel
             this.Btn_Escolha5.BackColor = System.Drawing.Color.Black;
             this.Btn_Escolha5.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Escolha5.ForeColor = System.Drawing.Color.White;
-            this.Btn_Escolha5.Location = new System.Drawing.Point(678, 275);
+            this.Btn_Escolha5.Location = new System.Drawing.Point(674, 223);
             this.Btn_Escolha5.Name = "Btn_Escolha5";
             this.Btn_Escolha5.Size = new System.Drawing.Size(75, 27);
             this.Btn_Escolha5.TabIndex = 10;
@@ -190,7 +193,7 @@ namespace Flimes_Marvel
             // Txt_Ponto1
             // 
             this.Txt_Ponto1.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Ponto1.Location = new System.Drawing.Point(104, 277);
+            this.Txt_Ponto1.Location = new System.Drawing.Point(100, 225);
             this.Txt_Ponto1.Name = "Txt_Ponto1";
             this.Txt_Ponto1.Size = new System.Drawing.Size(18, 25);
             this.Txt_Ponto1.TabIndex = 11;
@@ -198,7 +201,7 @@ namespace Flimes_Marvel
             // Txt_Ponto2
             // 
             this.Txt_Ponto2.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Ponto2.Location = new System.Drawing.Point(267, 277);
+            this.Txt_Ponto2.Location = new System.Drawing.Point(263, 225);
             this.Txt_Ponto2.Name = "Txt_Ponto2";
             this.Txt_Ponto2.Size = new System.Drawing.Size(18, 25);
             this.Txt_Ponto2.TabIndex = 12;
@@ -206,7 +209,7 @@ namespace Flimes_Marvel
             // Txt_Ponto3
             // 
             this.Txt_Ponto3.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Ponto3.Location = new System.Drawing.Point(431, 275);
+            this.Txt_Ponto3.Location = new System.Drawing.Point(427, 223);
             this.Txt_Ponto3.Name = "Txt_Ponto3";
             this.Txt_Ponto3.Size = new System.Drawing.Size(18, 25);
             this.Txt_Ponto3.TabIndex = 13;
@@ -214,7 +217,7 @@ namespace Flimes_Marvel
             // Txt_Ponto4
             // 
             this.Txt_Ponto4.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Ponto4.Location = new System.Drawing.Point(605, 275);
+            this.Txt_Ponto4.Location = new System.Drawing.Point(601, 223);
             this.Txt_Ponto4.Name = "Txt_Ponto4";
             this.Txt_Ponto4.Size = new System.Drawing.Size(18, 25);
             this.Txt_Ponto4.TabIndex = 14;
@@ -222,7 +225,7 @@ namespace Flimes_Marvel
             // Txt_Ponto5
             // 
             this.Txt_Ponto5.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Ponto5.Location = new System.Drawing.Point(759, 275);
+            this.Txt_Ponto5.Location = new System.Drawing.Point(755, 223);
             this.Txt_Ponto5.Name = "Txt_Ponto5";
             this.Txt_Ponto5.Size = new System.Drawing.Size(18, 25);
             this.Txt_Ponto5.TabIndex = 15;
@@ -260,6 +263,15 @@ namespace Flimes_Marvel
             this.Btn_Resultado.UseVisualStyleBackColor = true;
             this.Btn_Resultado.Click += new System.EventHandler(this.Btn_Resultado_Click);
             // 
+            // axWindowsMediaPlayer1
+            // 
+            this.axWindowsMediaPlayer1.Enabled = true;
+            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(15, 278);
+            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
+            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
+            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(252, 159);
+            this.axWindowsMediaPlayer1.TabIndex = 19;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -268,6 +280,7 @@ namespace Flimes_Marvel
             this.BackgroundImage = global::Flimes_Marvel.Properties.Resources.R;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.Btn_Resultado);
             this.Controls.Add(this.Txt_Nota);
             this.Controls.Add(this.Lbl_Nota);
@@ -295,6 +308,7 @@ namespace Flimes_Marvel
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Flimes3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Flimes4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Flimes5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -321,6 +335,7 @@ namespace Flimes_Marvel
         private System.Windows.Forms.Label Lbl_Nota;
         private System.Windows.Forms.TextBox Txt_Nota;
         private System.Windows.Forms.Button Btn_Resultado;
+        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
     }
 }
 
