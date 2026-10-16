@@ -242,6 +242,7 @@ namespace Flimes_Marvel
             // 
             // Txt_Nota
             // 
+            this.Txt_Nota.Enabled = false;
             this.Txt_Nota.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_Nota.Location = new System.Drawing.Point(287, 363);
             this.Txt_Nota.Multiline = true;
